@@ -1,0 +1,96 @@
+/* Add this to your existing "register.css" file or create a new one */
+
+/* Set body and html to have full width */
+body, html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #4C644B;
+}
+.auth{
+    background-color: #4C644B;
+     padding-top: 30px;
+}
+/* Container for the two columns */
+.auth-container {
+    background: #4C644B;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    height: 100%; /* Make the container full height of the viewport */
+   
+}
+
+@media (max-width: 320px) {
+  	.auth-container {
+       height: 100%;
+      display: flex;
+      justify-content: center;
+          background: #4C644B;
+      /* position: absolute; */
+  	}
+}
+
+@media (max-width: 768px) {
+  	.auth-container {   
+       height: 100%;
+      display: flex;
+      justify-content: center;
+
+      /* position: absolute; */
+        background: #4C644B;
+   
+  	}
+}
+
+.auth-header{
+    margin: 20px 0px 0px 0px;
+}
+/* Style for each column */
+.card {
+     /* margin: 80px 0px 50px; */
+     position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    margin: auto;
+    margin-bottom: 10px;
+     border-radius: 25px !important;
+    background: #CFE2CE;
+    width: auto; /* Make the columns full width */
+     /* Center the card within the container */
+}
+
+/* Change the font color of h4 to green */
+.card h4 {
+    color:  #4C644B;
+}
+.card-body{
+    padding: 1.5rem 1.5rem 1rem 1.5rem;
+}
+.regtitle{
+    margin-bottom: 5px; 
+    font-weight: 500; 
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+    .auth-container {
+        justify-content: space-around; /* Distribute the columns with space around on larger screens */
+        margin: auto;
+            background: #4C644B;
+    }
+
+    .card {
+        width: 45%; /* Adjust the width of the columns for larger screens */
+    }
+    .regtitle{
+    margin-bottom: 5px; 
+    font-weight: 400; 
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+}
+

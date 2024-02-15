@@ -1,0 +1,51 @@
+/* Styling the calendar container */
+#calendar {
+  width: 100%;
+  margin: 20px auto;
+}
+
+/* Styling the header buttons */
+.fc button {
+  background-color: #56e669;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+/* Styling the calendar events */
+.fc-event {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 3px 6px;
+  cursor: pointer;
+}
+
+/* Styling the selected event */
+.fc-event.selected {
+  background-color: #dc3545;
+}
+
+/* Styling the event popover */
+.fc-popover {
+  background-color: white;
+  border: 1px solid #ced4da;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  color: #333;
+}
+
+/* Styling the event title in the popover */
+.fc-title {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Styling the input in the popover */
+.fc-popover .form-control {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+}
